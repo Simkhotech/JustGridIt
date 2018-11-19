@@ -1,0 +1,36 @@
+/** grid **/
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50px 50%;
+
+    text-align: center;
+    color: white;
+}
+
+
+/** color **/
+.wrapper div:nth-child(1) {
+    background-color: teal;
+}
+
+.wrapper div:nth-child(2) {
+    background-color: aqua;
+}
+
+.wrapper div:nth-child(3) {
+    background-color: blue;
+}
+
+.wrapper div:nth-child(4) {
+    background-color: blueviolet;
+}
+
+.wrapper div:nth-child(5) {
+    background-color: yellowgreen;
+}
+
+.wrapper div:nth-child(6) {
+    background-color: tomato;
+}
